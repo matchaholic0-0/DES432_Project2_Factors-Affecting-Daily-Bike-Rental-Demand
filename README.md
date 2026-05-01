@@ -122,7 +122,7 @@ pip install pandas numpy matplotlib seaborn scipy statsmodels scikit-learn
 
 1. Clone this repository
 2. Place `day.csv` inside the `data/` folder
-3. Open `pokpong_final_ver.ipynb` in Jupyter Notebook or JupyterLab
+3. Open `DES432_Project2.ipynb` in Jupyter Notebook or JupyterLab
 4. Run all cells from top to bottom
 
 ---
