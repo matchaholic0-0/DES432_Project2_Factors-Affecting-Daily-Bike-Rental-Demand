@@ -68,6 +68,17 @@ This project investigates whether weather-related variables are statistically as
 
 ## 📈 Key Results
 
+### Hypothesis Testing Summary
+
+All three predictors were found to be statistically significant (p < 0.05) in the multiple regression model:
+
+| Predictor | t-statistic | p-value | Decision |
+|---|---|---|---|
+| `temp` | 22.61 | 4.18 × 10⁻⁸⁶ | Reject H₀ |
+| `hum` | −8.07 | 2.83 × 10⁻¹⁵ | Reject H₀ |
+| `windspeed` | −6.78 | 2.48 × 10⁻¹¹ | Reject H₀ |
+
+
 ### Regression Equations
 
 **Model 1 (Simple):**
@@ -88,16 +99,6 @@ cnt = 4084.36 + 6625.53 × temp − 3100.12 × hum − 4806.93 × windspeed
 | Model 2 | `temp`, `hum`, `windspeed` | 0.4609 | 0.4587 | 1421.40 | 1164.15 |
 
 **Model 2 is selected as the final model** — it explains more variance and produces lower prediction errors.
-
-### Hypothesis Testing Summary
-
-All three predictors were found to be statistically significant (p < 0.05) in the multiple regression model:
-
-| Predictor | t-statistic | p-value | Decision |
-|---|---|---|---|
-| `temp` | 22.61 | 4.18 × 10⁻⁸⁶ | Reject H₀ |
-| `hum` | −8.07 | 2.83 × 10⁻¹⁵ | Reject H₀ |
-| `windspeed` | −6.78 | 2.48 × 10⁻¹¹ | Reject H₀ |
 
 ---
 
